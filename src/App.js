@@ -73,7 +73,7 @@ function App() {
     }
   };
 
-  if (isLoggedIn) {
+  if (isLoggedIn) { // Logged-in view
     return (
       <div className="App">
         <div className="login-container">
@@ -83,7 +83,7 @@ function App() {
             <div className="success-message">{message}</div>
             <button onClick={handleLogout} className="login-button">
               Logout
-            </button>
+            </button> 
           </div>
         </div>
       </div>
